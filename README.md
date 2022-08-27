@@ -1,5 +1,5 @@
 # CS513_PA1
-Programming Assignment 1: Virtual Machine Setup &amp; Socket Programming
+# Programming Assignment 1: Virtual Machine Setup &amp; Socket Programming
 
 ### Due Monday September 19 at 6:00 pm EST
 
