@@ -113,7 +113,7 @@ download the course files from GitHub.
 
 ### Step 6: Provision virtual machine using Vagrant
 
-From the `assignments` directory you just entered, run the command  `vagrant
+From the `CS513_PA1` directory you just entered, run the command  `vagrant
 up` to start the VM and provision it according to the Vagrantfile. You will
 likely have to wait several minutes. You may see warnings/errors in red, such
 as "default: dpkg-preconfigure: unable to re-open stdin: No such file or 
