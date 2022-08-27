@@ -113,7 +113,7 @@ download the course files from GitHub.
 
 ### Step 6: Provision virtual machine using Vagrant
 
-From the `assignments` directory you just entered, run the command  `vagrant
+From the `CS513_PA1` directory you just entered, run the command  `vagrant
 up` to start the VM and provision it according to the Vagrantfile. You will
 likely have to wait several minutes. You may see warnings/errors in red, such
 as "default: dpkg-preconfigure: unable to re-open stdin: No such file or 
@@ -241,7 +241,7 @@ directly on your OS (allowing you to use any editor you have installed). After
 running `vagrant ssh` from your terminal, run `cd /vagrant` to get to the
 course directory.
 
-We have provided scaffolding code in the `assignment1/client_server/`
+We have provided scaffolding code in the `client_server/`
 directory.  *You should read and understand this code before starting to
 program.*
 
@@ -274,7 +274,7 @@ set the global variable `errno` (Beej's Guide will tell you which do). For
 those that don't, simply print a message to standard error.
 
 You should build your solution by running `make` in the
-`assignment1/client_server` directory. Your code *must* build using the
+`client_server` directory. Your code *must* build using the
 provided Makefile. The server should be run as `./server-c [port] > [output
 file]`. The client should be run as `./client-c [server IP] [server port] <
 [message file]`. See "Testing" for more details.
@@ -317,7 +317,7 @@ The Go `Listen` function maintains a queue of connecting clients by default. No
 additional programming is required.
 
 You should build your solution by running `make go` in the
-`assignment1/client_server` directory. Your code *must* build using the
+`client_server` directory. Your code *must* build using the
 provided Makefile. The server should be run as `./server-go [port] > [output
 file]`. The client should be run as `./client-go [server IP] [server port] <
 [message file]`. See "Testing" for more details.
