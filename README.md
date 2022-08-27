@@ -189,11 +189,10 @@ any specific operating system or programming language. This allows programmers
 to use socket to write correct network programs in many contexts.
 
 This part of the assignment will give you experience with basic socket
-programming. You will write 2 pairs of TCP client and server programs for
-sending and receiving text messages over the Internet. **One client/server pair
-must be written in C**. The other pair can be written in **either** Python or Go.
-You can choose either language (only one). The Python solution is shorter, but
-you will need to know Go socket programming for a later assignment.
+programming. You will write a TCP client and server program for
+sending and receiving text messages over the Internet. You can choose
+between C, Python, or Go. The Python solution is shorter, but
+you will need to know Go programming for a later assignment.
 
 The client and server programs in both languages should meet the following
 specifications. Be sure to read these meticulously before and after programming
@@ -440,9 +439,5 @@ submitting.
 Code that does not compile is graded harshly; if you want partial credits,
 *make sure your file compiles!*
 
-Remember that, in addition to your C client/server pair, you should submit
-another client/server in **either** Python or Go, but not both! If you submit
-both pairs we will only grade your Python files (arbitrary choice). Do not
-expect us to grade both and select the greater of the two grades. Furthermore,
-you may NOT submit just a client in Python and a server in Go, or the other way
-around. Your second client/server pair must be in the same language.
+You may NOT submit just a client in Python and a server in Go, or the other way
+around. Your client/server pair must be in the same language.
