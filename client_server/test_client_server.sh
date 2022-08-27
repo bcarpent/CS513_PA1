@@ -84,28 +84,28 @@ function test {
 
 function all-tests {
 
-  printf "\n$testNum. TEST SHORT MESSAGE\n"
+  printf "\n1. TEST SHORT MESSAGE\n"
   printf "Hello, world!\n" > test_message.txt
   test "$1" "$2" $3 1 1
   ((testNum++))
 
   ###############################################################################
 
-  printf "\n$testNum. TEST RANDOM ALPHANUMERIC MESSAGE\n"
+  printf "\n2. TEST RANDOM ALPHANUMERIC MESSAGE\n"
   head -c100000 /dev/urandom | LC_ALL=C tr -dc 'a-zA-Z0-9' > test_message.txt
   test "$1" "$2" $3 1 0
   ((testNum++))
 
   ###############################################################################
 
-  printf "\n$testNum. TEST RANDOM BINARY MESSAGE\n"                                             
+  printf "\n3. TEST RANDOM BINARY MESSAGE\n"
   head -c100000 /dev/urandom > test_message.txt
   test "$1" "$2" $3 1 0
   ((testNum++))
 
   ###############################################################################
 
-  printf "\n$testNum. TEST SERVER INFINITE LOOP (multiple sequential clients to same server)\n" 
+  printf "\n4. TEST SERVER INFINITE LOOP (multiple sequential clients to same server)\n"
   $2 $3 > test_output.txt &
   SERVER_PID=$!
   sleep 0.2
@@ -130,7 +130,7 @@ function all-tests {
   # Since order of sending and order of receival can differ, we sort the messages
   # on each end and see if the results match.
 
-  printf "\n$testNum. TEST SERVER QUEUE (overlapping clients to same server)\n"                 
+  printf "\n5. TEST SERVER QUEUE (overlapping clients to same server)\n"
   rm -f test_message.txt
   stdbuf -i0 -o0 $2 $3 > test_output.txt &
   SERVER_PID=$!
@@ -271,4 +271,4 @@ rm -rf $WORKSPACE
 #####################################################
 
 printf "================================================================\n\n"
-printf "TESTS PASSED: $numCorrect/$((testNum-1))\n"
+printf "TESTS PASSED: $numCorrect/5\n"
