@@ -336,7 +336,7 @@ attempting to send several different messages between all 4 combinations of
 your clients and servers (C client to C server, C client to Python/Go server,
 etc.). The messages are the following:
 
-0. The short message "Hellow, world!\n"
+0. The short message "Hello, world!\n"
 0. A long, randomly generated alphanumeric message
 0. A long, randomly generated binary message
 0. Several short messages sent sequentially from separate clients to one server
