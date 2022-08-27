@@ -5,8 +5,8 @@ Programming Assignment 1: Virtual Machine Setup &amp; Socket Programming
 
 The programming assignments are designed to be challenging but manageable in
 the time allotted. If you have questions, want to suggest clarifications, or
-are struggling with any of the assignments this semester, please come to office
-hours, ask questions on Discord, or talk to the instructor before or after class.
+are struggling with any of the assignments this semester, ask questions on Discord,
+or talk to the instructor before or after class.
 
 This is not a group assignment. **You are not allowed to copy or look at code
 from other students.** However, you are welcome to discuss the assignments with
