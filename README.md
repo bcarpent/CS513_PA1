@@ -437,23 +437,14 @@ and may run additional tests with large messages, multiple simultaneous clients,
 Accurate comments throughout your code show me that you understand the code you're writing.
 Test 1 is weighted much higher than the others so keep that in mind w.r.t. time management.
 
-Test 1                50%
-
-Test 2                10%
-
-Test 3                10%
-
-Test 4                10%
-
-Error Handling         5%
-
-Additional Tests       5%
-
-Comments/Organization 10%
-
-Extra Credit:
-
-Test 5                10%
+* Test 1                50%
+* Test 2                10%
+* Test 3                10%
+* Test 4                10%
+* Error Handling         5%
+* Additional Tests       5%
+* Comments/Organization 10%
+* Test 5                10% (extra credit)
 
 Double check the specifications above and perform your own tests before
 submitting.
