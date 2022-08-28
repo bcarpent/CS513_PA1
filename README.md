@@ -434,17 +434,17 @@ Submit the assignment by uploading your modified client and server files to Canv
 
 I will grade your assignments by running the `test_client_server.sh` script
 and may run additional tests with large messages, multiple simultaneous clients, etc.
-Accurate comments throughout your code show me that you understand the code you're writing.
+Accurate comments in your own words throughout your code show me you understand the implementation.
 Test 1 is weighted much higher than the others so keep that in mind w.r.t. time management.
 
-* Test 1: 50%
-* Test 2: 10%
-* Test 3: 10%
-* Test 4: 10%
-* Error Handling: 5%
-* Additional Tests: 5%
-* Comments/Organization: 10%
-* Test 5: 10% (extra credit)
+* **Test 1**: 50%
+* **Test 2**: 10%
+* **Test 3**: 10%
+* **Test 4**: 10%
+* **Error Handling**: 5%
+* **Additional Tests**: 5%
+* **Comments/Organization**: 10%
+* **Test 5**: 10% (extra credit)
 
 Double check the specifications above and perform your own tests before
 submitting.
