@@ -337,11 +337,11 @@ attempting to send several different messages between all 4 combinations of
 your clients and servers (C client to C server, C client to Python/Go server,
 etc.). The messages are the following:
 
-0. The short message "Hello, world!\n"
-0. A long, randomly generated alphanumeric message
-0. A long, randomly generated binary message
-0. Several short messages sent sequentially from separate clients to one server
-0. Several long, random alphanumeric messages sent concurrently from separate
+1. The short message "Hello, world!\n"
+2. A long, randomly generated alphanumeric message
+3. A long, randomly generated binary message
+4. Several short messages sent sequentially from separate clients to one server
+5. Several long, random alphanumeric messages sent concurrently from separate
 clients to one server
 
 Run the script as
@@ -433,12 +433,26 @@ on Piazza or see an instructor during office hours.
 Submit the assignment by uploading your modified client and server files to Canvas.
 
 I will grade your assignments by running the `test_client_server.sh` script
-and additional tests with large messages, multiple simultaneous clients, etc.
+and may run additional tests with large messages, multiple simultaneous clients, etc.
+Accurate comments throughout your code show me that you understand the code you're writing.
+Test 1 is weighted much higher than the others so keep that in mind w.r.t. time management.
+
+Test 1                50%
+Test 2                10%
+Test 3                10%
+Test 4                10%
+Error Handling         5%
+Additional Tests       5%
+Comments/Organization 10%
+
+Extra Credit:
+Test 5                10%
+
 Double check the specifications above and perform your own tests before
 submitting.
 
 Code that does not compile is graded harshly; if you want partial credits,
 *make sure your file compiles!*
 
-You may NOT submit just a client in Python and a server in Go, or the other way
+You may not submit just a client in Python and a server in Go, or the other way
 around. Your client/server pair must be in the same language.
