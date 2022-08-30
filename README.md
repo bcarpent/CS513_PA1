@@ -362,7 +362,7 @@ Make sure to build your C client/server pair before running
 ### Debugging hints
 
 Here are some debugging tips. If you are still having trouble, ask a question
-on Piazza or see an instructor during office hours.
+on Discord or see an instructor.
 
 * There are defined buffer size and queue length constants in the scaffolding
   code. Use them. If they are not defined in a particular file, you don't need
