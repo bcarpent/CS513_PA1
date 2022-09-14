@@ -296,7 +296,7 @@ lines of code in the `TODO` sections of each file. Your implementations may be
 shorter or longer.
 
 The Python socket functions will automatically raise Exceptions with helpful
-error messages. No additional error handling is required.
+error messages. Before you "ship" your code you can add a try block to gracefully handle run-time exceptions.
 
 The server should be run as `python server-python.py [port] > [output file]`.
 The client should be run as `python client-python.py [server IP] [server port]
