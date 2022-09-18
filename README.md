@@ -407,8 +407,7 @@ on Discord or see instructor.
       (you may have to install `nmap`). Use 127.0.0.1 as the IP and 8888-8888
       as the port range in your port scan.
 
-  If this did not help you fix the problem, please ask on Piazza or at office
-  hours. 
+  If this did not help you fix the problem, please ask on Discord. 
 
 * **Should I set the `MSG_WAITALL` flag on `recv()`?** No. This causes `recv()`
   to not return until it receives a specified amount of data. However, the
